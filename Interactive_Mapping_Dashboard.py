@@ -56,7 +56,7 @@ m.add_gdf(
     style={'color': 'black', 'fillOpacity': 0.3, 'weight': 0.5},
     )
 
- map_data = m.to_streamlit(800, 600, bidirectional=True)
+map_data = m.to_streamlit(800, 600, bidirectional=True)
 
 district_lengths = lengths_df[lengths_df['DISTRICT'] == st.session_state.selected_district]
 
